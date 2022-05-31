@@ -43,6 +43,8 @@ body {
     30px 30px 0 #00efff, 30px 30px 20px #00efff, 30px -30px 0 #00efff,
     30px -30px 20px #00efff, -30px 30px 0 #00efff, -30px 30px 20px #00efff;
   animation: animate 5s linear infinite;
+  animation-delay: calc(-0.25s * var(--i));
+  transform-origin: 20px;
 }
 
 @keyframes animate {
