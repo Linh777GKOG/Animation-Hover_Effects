@@ -25,6 +25,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+  transform: rotate(calc(36deg * var(--i)));
 }
 
 .loader span::before {
@@ -34,6 +35,7 @@ body {
   left: 0;
   width: 25px;
   height: 25px;
+  border-radius: 50%;
   background: transparent;
   border: 4px solid #00efff;
 }
